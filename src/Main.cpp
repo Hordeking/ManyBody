@@ -127,9 +127,8 @@ int main(int argc, char * argv[]){
 	double dt = 1;
 	double duration = 365*86400;
 
-	if (argc < 1) return 0;
-	if (argc >= 1) dt = strtod(argv[1], nullptr);
-	if (argc > 1) duration = strtod(argv[2], nullptr);
+	if (argc >= 2) dt = strtod(argv[1], nullptr);
+	if (argc > 2) duration = strtod(argv[2], nullptr);
 
 	Main().Run(duration, dt);
 
