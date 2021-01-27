@@ -1,0 +1,6 @@
+*.o
+ManyBody.cbp
+ManyBody.depend
+ManyBody.layout
+obj/
+
