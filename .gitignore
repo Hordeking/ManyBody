@@ -3,4 +3,4 @@ ManyBody.cbp
 ManyBody.depend
 ManyBody.layout
 obj/
-
+bin/*
